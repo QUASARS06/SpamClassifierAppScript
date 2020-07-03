@@ -1,8 +1,12 @@
 # SpamClassifierAppScript
 This is a sample project which uses a ML Spam Classifier and actually sends incoming emails to the Spam in real-time
 
-## ML Classifier Model Used
+## Resources Used
+**ML Classifier Model Used**\
 [Develop a NLP Model in Python & Deploy It with Flask, Step by Step](https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776)
+
+**App Script Snippet**\
+[HOW TO CREATE A GMAIL FILTER WITH GOOGLE APPS SCRIPT](http://www.jessespevack.com/blog/2018/9/6/how-to-create-a-gmail-filter-with-google-apps-script)
 
 ## How to make it work?
 I have used the ML model specified above and hosted it on heroku to be used as an API.
@@ -30,6 +34,12 @@ The Output returned is a JSON with key 'spam' having value either 1 or 0 [1:Spam
 
 **App Script files**\
 `email_spamify.js`
+
+## Making it work in real-time
+This file only sends an email to spam when manually ran from Google App Script, to make it work automatically you need to make triggers
+which automatically fire this script after a specified amount of time (This is because there is no way to fire the script when the user
+receives a new email) 
+More at : https://developers.google.com/apps-script/guides/triggers
 
 
 
