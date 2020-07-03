@@ -1,5 +1,5 @@
 # SpamClassifierAppScript
-This is a sample project which uses a ML Spam Classifier and actually sends incoming emails to the Spam in real-time
+This is a sample project which uses a ML Spam Classifier and actually sends incoming emails to the Spam in real-time.
 
 ## Resources Used
 **ML Classifier Model Used**\
@@ -13,7 +13,7 @@ I have used the ML model specified above and hosted it on heroku to be used as a
 So if you want to test the App Script file you can just go to : (https://spamflask.herokuapp.com/classify?msg=) 
 and just put whatever msg as value of the params which in essence would be the contents of the email which you 
 want to check for spam. If you get an Internal server error then you've not specified the msg params correctly,
-if that's not the case just refresh the URL
+if that's not the case just refresh the URL.
 
 
 ## API Docs
