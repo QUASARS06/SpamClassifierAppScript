@@ -36,9 +36,8 @@ The Output returned is a JSON with key 'spam' having value either 1 or 0 [1:Spam
 `email_spamify.js`
 
 ## Making it work in real-time
-This file only sends an email to spam when manually ran from Google App Script, to make it work automatically you need to make triggers
-which automatically fire this script after a specified amount of time (This is because there is no way to fire the script when the user
-receives a new email) 
+The `email_spamify.js` script file only sends an email to spam-box when manually ran from Google App Script, to make it work automatically you need to make triggers
+which automatically fire this script after a specified amount of time (This is because there is no way to fire the script when the user receives a new email)\
 More at : https://developers.google.com/apps-script/guides/triggers
 
 
